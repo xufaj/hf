@@ -42,7 +42,7 @@ message.channel.send(embed);
  
  client.on("ready", () => { // كود رينبو
   function lol() {
-    client.guilds.get('ايدي السيرفر حقكك').roles.find("name", "اسم الرتبه الا تبيها ملونه").setColor("RANDOM");
+    client.guilds.get('524215872005341194').roles.find("Rainbow", "اسم الرتبه الا تبيها ملونه").setColor("RANDOM");
   };
   setInterval(lol, 1000);
 });
